@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="150dp"
-        android:paddingStart="12dp"
+        android:paddingStart="18dp"
         android:paddingEnd="12dp"
         android:ems="10"
         android:background="@drawable/custom_input"
@@ -25,12 +25,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/password_et"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:paddingStart="12dp"
+        android:paddingStart="18dp"
         android:paddingEnd="12dp"
         android:ems="10"
         android:background="@drawable/custom_input"
@@ -69,6 +70,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_et"
-        app:layout_constraintVertical_bias="0.848" />
+        app:layout_constraintVertical_bias="0.790" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
